@@ -1,0 +1,23 @@
+#h3{
+    font-size: 30px !important;
+}
+
+.btn-danger:hover{
+    background-color: green;
+}
+
+canvas{
+    animation-name: okay;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes okay{
+    from{
+        box-shadow: 1px 1px 30px red;
+    }
+    to{
+        box-shadow: 1px 1px 30px violet;
+    }
+}
